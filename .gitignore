@@ -1,0 +1,2 @@
+# Ignore private configuration settings
+config/secrets.yml
