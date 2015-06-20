@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/rayning0/tweetstream.git
-  revision: cd5e54f7bc218b0cdaa24af180d89ddfaa28e4d1
+  revision: a4c95931de7f1290e4eee0a8e635a8639cad1dcb
   branch: on_close_callback
   specs:
-    tweetstream (2.6.2)
+    tweetstream (2.6.1)
       daemons (~> 1.1)
       em-http-request (>= 1.1.1)
       em-twitter (~> 0.3)
@@ -60,4 +60,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  tweetstream (= 2.6.2)!
+  tweetstream (= 2.6.1)!

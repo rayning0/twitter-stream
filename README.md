@@ -1,5 +1,4 @@
-->__Twitter Challenge__ by Raymond Gan<-
-Based on [Twitter's Streaming APIs](https://dev.twitter.com/streaming/overview)
+__Twitter Challenge__ by Raymond Gan. Based on [Twitter's Streaming APIs](https://dev.twitter.com/streaming/overview).
 
 To run code:
 
@@ -9,11 +8,9 @@ To run tests:
 
 `rspec`
 
-Part A: By default, it analyzes tweets for 300 seconds and shows the top 10 words.
-You may pick your own time and # of top words.
+Part A: By default, it analyzes tweets in English for 300 seconds and shows the top 10 words. You may pick your own time and # of top words.
 
-After cloning this code, you need a /config/secrets.yml file
-with these 4 secret keys [from Twitter](https://apps.twitter.com/):
+After cloning this code, you need a /config/secrets.yml file with these 4 secret keys [from Twitter](https://apps.twitter.com/):
 
 - consumer_key
 - consumer_secret
@@ -57,3 +54,7 @@ __Part A__
 - [__tchallenge-20secs.output__](https://github.com/rayning0/twitter-stream/blob/master/tchallenge-20secs.output), top 8 words after 20 secs.
 
 - [__word_freq-20secs.dat__](https://github.com/rayning0/twitter-stream/blob/master/word_freq-20secs.dat). Word frequency hash after 20 secs.
+
+Final note:
+
+You need my [modified version](https://github.com/rayning0/tweetstream) of the "tweetstream" gem to run all this, on my "on_close_callback" branch. The current "tweetstream" gem won't let you detect when the Twitter connection has closed. I fixed this and made this [pull request](https://github.com/tweetstream/tweetstream/pull/180).
