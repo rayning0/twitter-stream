@@ -1,5 +1,6 @@
-->__Twitter Challenge__ by Raymond Gan<-
-Based on [Twitter's Streaming APIs](https://dev.twitter.com/streaming/overview)
+__Twitter Challenge__ by Raymond Gan
+
+Based on [Twitter's Streaming APIs](https://dev.twitter.com/streaming/overview).
 
 To run code:
 
