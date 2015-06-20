@@ -1,0 +1,13 @@
+OPEN CONNECTION. 0 tweets. 05:57:15 PM
+
+282 tweets. Start: 05:57:14 PM. End: 05:57:35 PM
+
+Word frequency:
+{"this"=>22, "be"=>20, "with"=>19, "your"=>16, "so"=>15, "that"=>14, "when"=>14, "up"=>12}
+
+After 20 seconds, the top 8 most common words:
+["this", "be", "with", "your", "so", "that", "when", "up"]
+
+See word_freq.dat file for full word frequency list.
+
+CLOSE CONNECTION. 282 tweets. 05:57:35 PM

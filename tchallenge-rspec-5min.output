@@ -1,0 +1,20 @@
+OPEN CONNECTION. 0 tweets. 05:09:02 PM
+CLOSE CONNECTION. 79 tweets. 05:09:13 PM
+OPEN CONNECTION. 79 tweets. 05:09:39 PM
+CLOSE CONNECTION. 264 tweets. 05:09:53 PM
+OPEN CONNECTION. 264 tweets. 05:10:15 PM
+CLOSE CONNECTION. 496 tweets. 05:10:33 PM
+OPEN CONNECTION. 496 tweets. 05:10:51 PM
+
+3110 tweets. Start: 05:09:01 PM. End: 05:14:01 PM
+
+Word frequency:
+{"this"=>215, "so"=>165, "with"=>165, "be"=>147, "that"=>147, "your"=>145, "have"=>117, "like"=>117, "when"=>113, "are"=>107}
+
+After 300 seconds, the top 10 most common words:
+["this", "so", "with", "be", "that", "your", "have", "like", "when", "are"]
+
+See word_freq.dat file for full word frequency list.
+
+CLOSE CONNECTION. 3110 tweets. 05:14:01 PM
+/Users/user/.rvm/gems/ruby-2.1.2/gems/daemons-1.2.2/lib/daemons/monitor.rb:49:in `fork': unexpected break
