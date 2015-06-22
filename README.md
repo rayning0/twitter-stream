@@ -57,4 +57,6 @@ __Part A__
 
 Final note:
 
-You need my [modified version](https://github.com/rayning0/tweetstream) of the "tweetstream" gem to run all this, on my "on_close_callback" branch. The current "tweetstream" gem won't let you detect when the Twitter connection has closed. I fixed this and made this [pull request](https://github.com/tweetstream/tweetstream/pull/180).
+You need my [modified version](https://github.com/rayning0/tweetstream) of the "tweetstream" gem to run this, on my "on_close_callback" branch. The current "tweetstream" gem won't let you detect when the Twitter connection has closed. I fixed this and made this [pull request](https://github.com/tweetstream/tweetstream/pull/180).
+
+Even though "tweetstream" gem owners have merged my branch into their "master," we still can't get my new gem code using "gem install tweetstream". The gem owners must update their gem version # first, > 2.6.1. Thus I pushed their new master branch onto my rayning0 "tweetstream" and point my Gemfile to my "tweetstream" master branch.
