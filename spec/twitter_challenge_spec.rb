@@ -43,6 +43,7 @@ describe TwitterChallenge do
 
       # Starts process 'tchallenge.' Just hit 'enter' twice on keyboard.
       system('bundle exec ruby twitter.rb start')
+      sleep(1)
 
       3.times do
         # New process starts
